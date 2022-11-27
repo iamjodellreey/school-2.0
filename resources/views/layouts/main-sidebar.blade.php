@@ -42,11 +42,11 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="{{ route('setups.student.class.index') }}">
+                <a class="nav-link text-white " href="{{ route('setups.student.year.index') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="material-icons opacity-10">view_in_ar</i>
+                        <i class="material-icons opacity-10">calendar_month</i>
                     </div>
-                    <span class="nav-link-text ms-1">Virtual Reality</span>
+                    <span class="nav-link-text ms-1">Year</span>
                 </a>
             </li>
             <li class="nav-item mt-3">
