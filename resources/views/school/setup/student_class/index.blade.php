@@ -1,7 +1,7 @@
 <x-main-app-layout>
     <x-table>
         <x-slot:title>
-            Student Class Table
+            Student Classes
         </x-slot:title>
 
         <x-slot:thead>

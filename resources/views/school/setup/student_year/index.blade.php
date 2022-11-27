@@ -1,7 +1,7 @@
 <x-main-app-layout>
     <x-table>
         <x-slot:title>
-            Student Year Table
+            Student Years
         </x-slot:title>
 
         <x-slot:thead>

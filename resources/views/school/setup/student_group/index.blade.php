@@ -1,7 +1,7 @@
 <x-main-app-layout>
     <x-table>
         <x-slot:title>
-            Student Group Table
+            Student Groups
         </x-slot:title>
 
         <x-slot:thead>

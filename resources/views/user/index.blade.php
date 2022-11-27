@@ -1,7 +1,7 @@
 <x-main-app-layout>
     <x-table>
         <x-slot:title>
-            Users Table
+            Users
         </x-slot:title>
 
         <x-slot:thead>

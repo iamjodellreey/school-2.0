@@ -1,7 +1,7 @@
 <x-main-app-layout>
     <x-table>
         <x-slot:title>
-            Fee Category Amount Table
+            Fee Category Amounts
         </x-slot:title>
 
         <x-slot:thead>
