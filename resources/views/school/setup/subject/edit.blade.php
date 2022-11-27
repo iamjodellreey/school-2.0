@@ -1,5 +1,5 @@
 <x-main-app-layout>
-    <x-form :route="route('setups.student.shift.update', ['studentShift' => $studentShift->id])">
+    <x-form :route="route('setups.school.subject.update', ['schoolSubject' => $schoolSubject->id])">
 
         @if (!empty($errors->all()))
             <div class="row mb-3">
@@ -8,13 +8,14 @@
         @endif
 
         {{-- TODO: Fix UI when there is validation --}}
-        <x-input class="{{ is_filled($errors->all(), $studentShift) }}">
+        <x-input class="{{ is_filled($errors->all(), $schoolSubject) }}">
             <x-input-label>
                 <x-slot:label>
-                    Shift Name
+                    Year
                 </x-slot:label>
             </x-input-label>
-            <input name="name" type="text" class="form-control" value="{{ old('name', $studentShift->name) }}"
+            {{-- TODO: Make this a calendar --}}
+            <input name="name" type="text" class="form-control" value="{{ old('name', $schoolSubject->name) }}"
                 required>
         </x-input>
         <div class="d-flex flex-row-reverse">

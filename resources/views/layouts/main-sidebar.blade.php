@@ -62,7 +62,7 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">category</i>
                     </div>
-                    <span class="nav-link-text ms-1">Categories</span>
+                    <span class="nav-link-text ms-1">Fee Categories</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -79,6 +79,42 @@
                         <i class="material-icons opacity-10">schedule</i>
                     </div>
                     <span class="nav-link-text ms-1">Student Shifts</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="{{ route('setups.exam.type.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">history_edu</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Exam Type</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="{{ route('setups.school.subject.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">library_books</i>
+                    </div>
+                    <span class="nav-link-text ms-1">Subjects</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="{{ route('setups.assign.subject.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">assignment_turned_in</i>
+                    </div>
+
+                    <span class="nav-link-text ms-1">Assign Subjects</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white " href="{{ route('setups.designation.index') }}">
+                    <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10"><span class="material-symbols-outlined">
+                                badge
+                            </span></i>
+                    </div>
+
+                    <span class="nav-link-text ms-1">Work Position</span>
                 </a>
             </li>
             <li class="nav-item mt-3">
